@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "HXRVSGPITifdkxLOttqCzOFANpPEL3IUD4gkqoFZwm3g2j2wZq2afutwV9KeG05kpyh+kNf/y8OnFinPsRqcdw==",
+  "dgSpecHash": "j8Ys0mnM4Sav+o2a1QuSTK+9X1OrWNXici8x83mGSY12hPR2cY1BEnHiATpzJ5WXvAfq1O8WmmQ68vAtJWk5Eg==",
   "success": true,
   "projectFilePath": "F:\\OneDrive\\Documents\\GitHub\\DinoManager_Blazor\\DinoManager_Blazor.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Dunan\\.nuget\\packages\\bootstrap\\4.6.0\\bootstrap.4.6.0.nupkg.sha512",
+    "C:\\Users\\Dunan\\.nuget\\packages\\jquery\\3.0.0\\jquery.3.0.0.nupkg.sha512",
+    "C:\\Users\\Dunan\\.nuget\\packages\\popper.js\\1.16.1\\popper.js.1.16.1.nupkg.sha512"
+  ],
   "logs": []
 }
