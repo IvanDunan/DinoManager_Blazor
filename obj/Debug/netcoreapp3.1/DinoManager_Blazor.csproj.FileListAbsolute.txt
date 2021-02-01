@@ -46,3 +46,5 @@ F:\OneDrive\Documents\GitHub\DinoManager_Blazor\obj\Debug\netcoreapp3.1\DinoMana
 F:\OneDrive\Documents\GitHub\DinoManager_Blazor\obj\Debug\netcoreapp3.1\DinoManager_Blazor.pdb
 F:\OneDrive\Documents\GitHub\DinoManager_Blazor\obj\Debug\netcoreapp3.1\DinoManager_Blazor.genruntimeconfig.cache
 F:\OneDrive\Documents\GitHub\DinoManager_Blazor\obj\Debug\netcoreapp3.1\DinoManager_Blazor.csproj.CopyComplete
+F:\OneDrive\Documents\GitHub\DinoManager_Blazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\LoginLayout.razor.g.cs
+F:\OneDrive\Documents\GitHub\DinoManager_Blazor\obj\Debug\netcoreapp3.1\Razor\Shared\LoginLayout.razor.g.cs
