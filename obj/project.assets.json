@@ -305,19 +305,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dunan\\.nuget\\packages\\": {}
+    "C:\\Users\\ivan_\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\OneDrive\\Documents\\GitHub\\DinoManager_Blazor\\DinoManager_Blazor.csproj",
+      "projectUniqueName": "C:\\Users\\ivan_\\OneDrive\\Documents\\GitHub\\DinoManager_Blazor\\DinoManager_Blazor.csproj",
       "projectName": "DinoManager_Blazor",
-      "projectPath": "F:\\OneDrive\\Documents\\GitHub\\DinoManager_Blazor\\DinoManager_Blazor.csproj",
-      "packagesPath": "C:\\Users\\Dunan\\.nuget\\packages\\",
-      "outputPath": "F:\\OneDrive\\Documents\\GitHub\\DinoManager_Blazor\\obj\\",
+      "projectPath": "C:\\Users\\ivan_\\OneDrive\\Documents\\GitHub\\DinoManager_Blazor\\DinoManager_Blazor.csproj",
+      "packagesPath": "C:\\Users\\ivan_\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ivan_\\OneDrive\\Documents\\GitHub\\DinoManager_Blazor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dunan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ivan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

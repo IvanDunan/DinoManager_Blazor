@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "JlH1DyjnS7UuqFIT/8JMkBo12qnH/wdoII7rw3sqyRfDcm7zagTQq5NT7FfuRVhybEHjU8vaenN0xzLTFY1xww==",
+  "dgSpecHash": "j73F3nuYG9NhGFzYTq6XYdJgBwJT1n4qr3MMksrsb5AAN9jhobWlEtpdjXoTj2m17HmjUi0Zt/odqE5qDGgqfw==",
   "success": true,
-  "projectFilePath": "F:\\OneDrive\\Documents\\GitHub\\DinoManager_Blazor\\DinoManager_Blazor.csproj",
+  "projectFilePath": "C:\\Users\\ivan_\\OneDrive\\Documents\\GitHub\\DinoManager_Blazor\\DinoManager_Blazor.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Dunan\\.nuget\\packages\\bootstrap\\4.6.0\\bootstrap.4.6.0.nupkg.sha512",
-    "C:\\Users\\Dunan\\.nuget\\packages\\jquery\\3.0.0\\jquery.3.0.0.nupkg.sha512",
-    "C:\\Users\\Dunan\\.nuget\\packages\\popper.js\\1.16.1\\popper.js.1.16.1.nupkg.sha512"
+    "C:\\Users\\ivan_\\.nuget\\packages\\bootstrap\\4.6.0\\bootstrap.4.6.0.nupkg.sha512",
+    "C:\\Users\\ivan_\\.nuget\\packages\\jquery\\3.0.0\\jquery.3.0.0.nupkg.sha512",
+    "C:\\Users\\ivan_\\.nuget\\packages\\popper.js\\1.16.1\\popper.js.1.16.1.nupkg.sha512"
   ],
   "logs": []
 }
