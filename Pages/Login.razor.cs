@@ -7,5 +7,8 @@ namespace DinoManager_Blazor.Pages
 {
     public partial class Login
     {
+        private string Email { get; set; }
+        private string Password { get; set; }
+
     }
 }

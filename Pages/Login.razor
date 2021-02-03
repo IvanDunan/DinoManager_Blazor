@@ -22,13 +22,13 @@
                             </ul>
                         </div>
                         <div class="form-group">
-                            <label for="Input_Email">Email</label>
-                            <input class="form-control" type="email" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="The Email field is required." id="Input_Email" name="Input.Email" value="">
+                            <label for="Input_Email">Email</label> <!--EMAIL-->
+                            <input @bind="Email" class="form-control" type="email" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="The Email field is required." id="Input_Email" name="Input.Email">
                             <span class="text-danger field-validation-valid" data-valmsg-for="Input.Email" data-valmsg-replace="true"></span>
                         </div>
                         <div class="form-group">
-                            <label for="Input_Password">Contraseña</label>
-                            <input class="form-control" type="password" data-val="true" data-val-required="The Password field is required." id="Input_Password" name="Input.Password">
+                            <label for="Input_Password">Contraseña</label> <!--CONTRASEÑA-->
+                            <input @bind="Password" class="form-control" type="password" data-val="true" data-val-required="The Password field is required." id="Input_Password" name="Input.Password">
                             <span class="text-danger field-validation-valid" data-valmsg-for="Input.Password" data-valmsg-replace="true"></span>
                         </div>
                         <div class="form-group">
@@ -53,11 +53,8 @@
                         <input name="__RequestVerificationToken" type="hidden" value="CfDJ8GlRPxZMhKZEi0Tq4s2m4ubmIWo4Cs5XKEOCTdmm7oW1FQpMse9fJ2Dn3hIC3JHqwApeVpPpXYRmw5SR7qs35Jg7Zbs86TWZKcXIlIdt73bXMJaYYiZNDLpTurYFbywxvN0QoHeDO19pS1dxizcSMtE"><input name="Input.RememberMe" type="hidden" value="false">
                     </form>
                 </section>
-
-            </div>
+                </div>
         </div>
-
-
-    </main>
+</main>
 </div>
 
