@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j73F3nuYG9NhGFzYTq6XYdJgBwJT1n4qr3MMksrsb5AAN9jhobWlEtpdjXoTj2m17HmjUi0Zt/odqE5qDGgqfw==",
+  "dgSpecHash": "r1Zvf2QeWZ1kP9P/y69368nIibNMifOdeh/W3LYiDkgxwnCWsUv5z0gANBmcl8FqCNU/xf3xdVC/btM8c+/Oiw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ivan_\\OneDrive\\Documents\\GitHub\\DinoManager_Blazor\\DinoManager_Blazor.csproj",
+  "projectFilePath": "C:\\Projects\\GitHub\\DinoManager_Blazor\\DinoManager_Blazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ivan_\\.nuget\\packages\\bootstrap\\4.6.0\\bootstrap.4.6.0.nupkg.sha512",
     "C:\\Users\\ivan_\\.nuget\\packages\\jquery\\3.0.0\\jquery.3.0.0.nupkg.sha512",

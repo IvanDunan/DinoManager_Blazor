@@ -310,11 +310,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ivan_\\OneDrive\\Documents\\GitHub\\DinoManager_Blazor\\DinoManager_Blazor.csproj",
+      "projectUniqueName": "C:\\Projects\\GitHub\\DinoManager_Blazor\\DinoManager_Blazor.csproj",
       "projectName": "DinoManager_Blazor",
-      "projectPath": "C:\\Users\\ivan_\\OneDrive\\Documents\\GitHub\\DinoManager_Blazor\\DinoManager_Blazor.csproj",
+      "projectPath": "C:\\Projects\\GitHub\\DinoManager_Blazor\\DinoManager_Blazor.csproj",
       "packagesPath": "C:\\Users\\ivan_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ivan_\\OneDrive\\Documents\\GitHub\\DinoManager_Blazor\\obj\\",
+      "outputPath": "C:\\Projects\\GitHub\\DinoManager_Blazor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ivan_\\AppData\\Roaming\\NuGet\\NuGet.Config",

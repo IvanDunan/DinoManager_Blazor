@@ -27,6 +27,7 @@ app {
 }
 
 .main {
+    background-image:url(/images/background.jpg)
     flex: 1;
 }
 
