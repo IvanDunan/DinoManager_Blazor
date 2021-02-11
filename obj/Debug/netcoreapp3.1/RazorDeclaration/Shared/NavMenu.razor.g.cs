@@ -83,7 +83,7 @@ using DinoManager_Blazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 42 "C:\Projects\GitHub\DinoManager_Blazor\Shared\NavMenu.razor"
+#line 47 "C:\Projects\GitHub\DinoManager_Blazor\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

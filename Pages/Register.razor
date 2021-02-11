@@ -1,5 +1,7 @@
 ﻿@page "/register"
-<header>
+<!--
+    CABECERA APROVECHABLE?
+    <header>
     <nav class="navbar navbar-expand-sm navbar-light navbar-toggleable-sm bg-white border-bottom box-shadow mb-3">
         <div class="container">
             <a class="navbar-brand" href="/">Pruebas_Login</a>
@@ -19,18 +21,18 @@
             </div>
         </div>
     </nav>
-</header>
+</header>--> 
 
 <div class="container">
 
     <main role="main" class="pb-1">
 
-        <h1>Register</h1>
+        <h1>Registro</h1>
 
         <div class="row">
             <div class="col-md-4">
                 <form id="registerForm" method="post" action="/Identity/Account/Register" novalidate="novalidate">
-                    <h4>Create a new account.</h4>
+                    <h4>Crea una cuenta DinoManager.</h4>
                     <hr>
                     <div class="text-danger validation-summary-valid" data-valmsg-summary="true">
                         <ul>
@@ -43,28 +45,59 @@
                         <span class="text-danger field-validation-valid" data-valmsg-for="Input.Email" data-valmsg-replace="true"></span>
                     </div>
                     <div class="form-group">
-                        <label for="Input_Password">Password</label>
+                        <label for="Input_Password">Contraseña</label>
                         <input class="form-control" type="password" data-val="true" data-val-length="The Password must be at least 6 and at max 100 characters long." data-val-length-max="100" data-val-length-min="6" data-val-required="The Password field is required." id="Input_Password" maxlength="100" name="Input.Password">
                         <span class="text-danger field-validation-valid" data-valmsg-for="Input.Password" data-valmsg-replace="true"></span>
                     </div>
                     <div class="form-group">
-                        <label for="Input_ConfirmPassword">Confirm password</label>
+                        <label for="Input_ConfirmPassword">Confirma la contraseña</label>
                         <input class="form-control" type="password" data-val="true" data-val-equalto="The password and confirmation password do not match." data-val-equalto-other="*.Password" id="Input_ConfirmPassword" name="Input.ConfirmPassword">
                         <span class="text-danger field-validation-valid" data-valmsg-for="Input.ConfirmPassword" data-valmsg-replace="true"></span>
                     </div>
-                    <button id="registerSubmit" type="submit" class="btn btn-primary">Register</button>
-                    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8IgljBPp20tIglsWOQD5jP7StcCYMQgi-8XxEed_3n4ltzxTfEyrLCTBWRA0ASS-7BT_bE8XD1z_uEEDY3QNUjTGh3YwARDgxMD6PVZijtKTk5xeteK1ra7AP_JtZeGNGHui8Wby5S9lS8lECyk5m58">
+                    <div class="form-group">
+                        <label for="Input_Name">Nombre</label>
+                        <input class="form-control" type="email" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="The Email field is required." id="Input_Email" name="Input.Email" value="">
+                        <span class="text-danger field-validation-valid" data-valmsg-for="Input.Email" data-valmsg-replace="true"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Input_Surnames">Apellidos</label>
+                        <input class="form-control" type="email" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="The Email field is required." id="Input_Email" name="Input.Email" value="">
+                        <span class="text-danger field-validation-valid" data-valmsg-for="Input.Email" data-valmsg-replace="true"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="start">Fecha de nacimiento:</label>
+
+                        <input type="date" id="start" min="1900-01-01" max="2018-12-31">
+                    </div>
+                    <div class="form-group">
+                        <p>Sexo:</p>
+                        <input type="radio" name="sex" value="male"> Masculino
+                        <br>
+                        <input type="radio" name="sex" value="female"> Femenino
+                        
+                    </div>
+
+                    <button id="registerSubmit" type="submit" class="btn btn-primary">Registrarse</button>
+                    <input name="__RequestVerificationToken" type="hidden">
                 </form>
             </div>
             <div class="col-md-6 col-md-offset-2">
                 <section>
-                    <h4>Use another service to register.</h4>
+                    <h4>¡Bienvenido a DinoManager!</h4>
                     <hr>
                     <div>
                         <p>
-                            There are no external authentication services configured. See <a href="https://go.microsoft.com/fwlink/?LinkID=532715">this article</a>
-                            for details on setting up this ASP.NET application to support logging in via external services.
+                            ¿Qué es Dinomanager?
                         </p>
+                        <p>
+                            Una aplicación de gestión de cuentas para centros docentes, academias o cualquier entidad donde impartan clases, que se encargue de almacenar, proteger,
+                            recordar y generar diferentes cuentas y contraseñas seguras para sus alumnos que serán guardadas y cifradas, evitando que estas sean descubiertas tanto por
+                            personas como por ordenadores por métodos de fuerza bruta. Esto permitirá al centro o academia gestionar de una manera rápida y eficiente las cuentas de sus
+                            alumnos, así como crearlas, modificarlas y consultarlas.
+                        </p>
+                    </div>
+                    <div>
+                          <img src="/images/DinoManager_voltered.png" width="390" height="400">
                     </div>
                 </section>
             </div>
