@@ -56,3 +56,7 @@ ADD CONSTRAINT `fk_institution`
   REFERENCES `dinomanager_database`.`institution` (`id`)
   ON DELETE NO ACTION
   ON UPDATE NO ACTION;
+
+#Añado una columna para los email a la tabla de usuarios:
+
+ALTER TABLE dinomanager_database.users ADD email VARCHAR(100) NOT NULL;
