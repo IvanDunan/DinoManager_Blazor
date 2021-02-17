@@ -168,3 +168,5 @@ C:\Projects\GitHub\DinoManager_Blazor\bin\Debug\netcoreapp3.1\DataLibrary.dll
 C:\Projects\GitHub\DinoManager_Blazor\bin\Debug\netcoreapp3.1\DataLibrary.pdb
 C:\Projects\GitHub\DinoManager_Blazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Reports.razor.g.cs
 C:\Projects\GitHub\DinoManager_Blazor\obj\Debug\netcoreapp3.1\Razor\Pages\Reports.razor.g.cs
+C:\Projects\GitHub\DinoManager_Blazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\StudentReports.razor.g.cs
+C:\Projects\GitHub\DinoManager_Blazor\obj\Debug\netcoreapp3.1\Razor\Pages\StudentReports.razor.g.cs

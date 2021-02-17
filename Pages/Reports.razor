@@ -1,4 +1,4 @@
-﻿@page "/people"
+﻿@page "/reports"
 
 @using DataLibrary
 @using DinoManager_Blazor.Models
@@ -12,7 +12,7 @@
 
 @if (people == null)
 {
-    <p><em>Loading...</em></p>
+    <p><em><span class="spinner-border spinner-border-sm mr-2"></span>Loading...</em></p>
 }
 else
 {
@@ -40,44 +40,14 @@ else
 
     <button class="btn btn-primary" @onclick="InsertData">Insert</button>
     <button class="btn btn-warning" @onclick="UpdateData">Update</button>
+    <button class="btn btn-primary text-nowrap" type="button" @onclick="UpdateData">
+        <span class="spinner-border spinner-border-sm mr-2"></span>
+        Enviando datos...
+    </button>
     <button class="btn btn-danger" @onclick="DeleteData">Delete</button>
 }
 
 @code {
-    List<PersonModel> people;
 
-    private async Task InsertData()
-    {
-        string sql = "insert into people (FirstName, LastName) values (@FirstName, @LastName);";
-
-        await _data.SaveData(sql, new { FirstName = "Billy", LastName = "Bob" }, _config.GetConnectionString("default"));
-
-        await OnInitializedAsync();
-    }
-
-    private async Task UpdateData()
-    {
-        string sql = "update people set FirstName = @FirstName where LastName = @LastName";
-
-        await _data.SaveData(sql, new { FirstName = "Timothy", LastName = "Corey" }, _config.GetConnectionString("default"));
-
-        await OnInitializedAsync();
-    }
-
-    private async Task DeleteData()
-    {
-        string sql = "delete from people where LastName = @LastName";
-
-        await _data.SaveData(sql, new { LastName = "Bob" }, _config.GetConnectionString("default"));
-
-        await OnInitializedAsync();
-    }
-
-    protected override async Task OnInitializedAsync()
-    {
-        string sql = "select * from people";
-
-        people = await _data.LoadData<PersonModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
-    }
 
 }

@@ -76,28 +76,28 @@ using DinoManager_Blazor.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Projects\GitHub\DinoManager_Blazor\Pages\Reports.razor"
+#line 2 "C:\Projects\GitHub\DinoManager_Blazor\Pages\StudentReports.razor"
 using DataLibrary;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Projects\GitHub\DinoManager_Blazor\Pages\Reports.razor"
+#line 3 "C:\Projects\GitHub\DinoManager_Blazor\Pages\StudentReports.razor"
 using DinoManager_Blazor.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Projects\GitHub\DinoManager_Blazor\Pages\Reports.razor"
+#line 4 "C:\Projects\GitHub\DinoManager_Blazor\Pages\StudentReports.razor"
 using Microsoft.Extensions.Configuration;
 
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/reports")]
-    public partial class Reports : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/studentreports")]
+    public partial class StudentReports : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)

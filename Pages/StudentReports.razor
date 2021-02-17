@@ -1,0 +1,52 @@
+﻿@page "/studentreports"
+@using DataLibrary
+@using DinoManager_Blazor.Models
+@using Microsoft.Extensions.Configuration
+@inject IDataAccess _data
+@inject IConfiguration _config
+
+<h3>Informe de estudiantes:</h3>
+
+@if (student == null)
+{
+    <p><em><span class="spinner-border spinner-border-sm mr-2"></span>Loading...</em></p>
+}
+
+else
+{
+    <table class="blueTable">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Edad</th>
+                <th>Sexo</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var p in student)
+            {
+            <tr>
+                <td>
+                    @p.Name
+                </td>
+                <td>
+                    @p.Surnames
+                </td>
+                <td>
+                    @p.Age
+                </td>
+                <td>
+                    @p.Sex
+                </td>
+                <td>
+                    @p.Email
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+
+    <button class="btn btn-primary" @onclick="InsertData">Insert</button>
+}
